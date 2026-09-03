@@ -274,6 +274,18 @@ header.nav {
   width: 100%;
 }
 
+.icone-whatsapp {
+  width: 25px;
+  height: 25px;
+  object-fit: contain;
+}
+
+.btn-primary span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
 
 /* BOTÃO DESKTOP */
 .nav-cta {
@@ -341,7 +353,9 @@ header.nav {
   }
 
   .nav-links a {
-    font-size: 19px;
+    font-size: 14.5px;
+    position: relative;
+    padding-bottom: 0;
   }
 
   .nav-links .btn {
@@ -937,6 +951,7 @@ header.nav {
 }
 
 .differentials .section-head p {
+  font-size: 20px;
   color: rgba(246, 239, 228, .72);
 }
 
@@ -966,7 +981,7 @@ header.nav {
 .diff-item h4 {
   color: var(--nude);
 
-  font-size: 20px;
+  font-size: 40px;
 
   font-family: 'Cormorant Garamond';
 
@@ -976,7 +991,7 @@ header.nav {
 }
 
 .diff-item p {
-  font-size: 14.5px;
+  font-size: 20px;
 
   color: rgba(246, 239, 228, .72);
 }
