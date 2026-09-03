@@ -1050,7 +1050,7 @@ header.nav {
 .info-row strong {
   display: block;
 
-  font-size: 15.5px;
+  font-size: 20px;
 
   color: var(--bordeaux-deep);
 
@@ -1060,7 +1060,7 @@ header.nav {
 }
 
 .info-row span {
-  font-size: 14.5px;
+  font-size: 18px;
   color: var(--ink-soft);
 }
 
