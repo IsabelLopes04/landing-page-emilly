@@ -44,7 +44,7 @@ h4 {
   font-weight: 500;
   color: var(--bordeaux-deep);
   line-height: 1.15;
-  display: block;
+
 }
 
 a {
@@ -973,8 +973,7 @@ header.nav {
 /* ================= CTA ================= */
 
 .cta-banner {
-  padding: 90px 0;
-
+  padding: 80px 0;
   background:
     radial-gradient(
       circle at 15% 20%,
@@ -982,21 +981,23 @@ header.nav {
       transparent 50%
     ),
     var(--nude-soft);
+    align-items: center;
 
-  text-align: center;
 }
 
 .cta-banner h2 {
   font-size: clamp(28px, 4vw, 42px);
-
-  max-width: 20ch;
-
+  max-width: 34ch;
   margin: 0 auto 34px;
+  text-align: center;
 }
 
 .cta-banner .btn-primary {
-  padding: 19px 44px;
-  font-size: 16px;
+  padding: 20px 88px;
+  font-size: 18px;
+  width: 700px;       
+  margin: 0 auto;   
+
 }
 
 
@@ -1351,13 +1352,12 @@ footer ul a:hover {
 @media (max-width: 480px) {
 
   .container {
-    padding: 0 22px;
+    padding: 0 90px;
   }
 
   .float-whatsapp {
     width: 54px;
     height: 54px;
-
     bottom: 18px;
     right: 18px;
   }
