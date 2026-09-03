@@ -36,6 +36,6 @@ landing-page-emilly/
 │
 ├── css/
 │   └── style.css
-│
-└── js/
-    └── script.js
+├── js/
+│   └── script.js
+└── img
