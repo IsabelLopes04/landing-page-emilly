@@ -134,6 +134,11 @@ section {
 .btn-primary {
   background: var(--bordeaux);
   color: var(--nude);
+  border-radius: 20px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .btn-primary:hover {
@@ -145,6 +150,7 @@ section {
 .btn-ghost {
   border: 1px solid var(--gold);
   color: var(--bordeaux-deep);
+  border-radius: 20px;
 }
 
 .btn-ghost:hover {
@@ -167,14 +173,10 @@ header.nav {
   top: 0;
   left: 0;
   right: 0;
-
   z-index: 100;
-
   background: rgba(251, 247, 240, .85);
   backdrop-filter: blur(10px);
-
   border-bottom: 1px solid rgba(184, 137, 79, .18);
-
   transition: padding .3s var(--ease);
 }
 
@@ -182,7 +184,6 @@ header.nav {
   max-width: 1180px;
   margin: 0 auto;
   padding: 20px 32px;
-
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -241,28 +242,27 @@ header.nav {
   display: flex;
   gap: 38px;
   align-items: center;
+
 }
 
 .nav-links a {
   font-size: 14.5px;
   color: var(--ink-soft);
-
+  
   position: relative;
-  padding-bottom: 4px;
+  padding-bottom: 8px;
+
+
 }
 
 .nav-links a::after {
   content: '';
-
   position: absolute;
   left: 0;
   bottom: 0;
-
   width: 0;
   height: 1px;
-
   background: var(--gold);
-
   transition: width .3s var(--ease);
 }
 
@@ -276,25 +276,20 @@ header.nav {
 
 
 /* BOTÃO DESKTOP */
-
 .nav-cta {
   display: none;
 }
-
 .nav-cta .btn {
   padding: 12px 24px;
   font-size: 13.5px;
 }
 
-
 /* BURGER */
 
 .burger {
   display: none;
-
   width: 32px;
   height: 32px;
-
   flex-direction: column;
   justify-content: center;
   gap: 6px;
@@ -1372,10 +1367,7 @@ footer ul a:hover {
     animation: none;
   }
 }
-
-
 /* ================= MOBILE PEQUENO ================= */
-
 @media (max-width: 480px) {
 
   .container {

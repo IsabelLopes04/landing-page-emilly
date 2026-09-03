@@ -11,7 +11,7 @@ A página tem como objetivo proporcionar uma presença digital profissional para
 ### Principais seções
 
 -  **Início**
-- 👩 **Sobre a profissional**
+-  **Sobre a profissional**
 -  **Serviços**
 -  **Diferenciais**
 -  **Localização**
