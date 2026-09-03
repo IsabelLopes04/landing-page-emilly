@@ -121,7 +121,7 @@ section {
   display: inline-flex;
   align-items: center;
   gap: 10px;
-  padding: 16px 34px;
+  padding: 16px 50px;
   border-radius: 2px;
   font-size: 15px;
   letter-spacing: .02em;
@@ -140,6 +140,15 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+/* BOTÃO AGENDAR CONSULTA DA NAVBAR */
+
+.nav-links .btn-primary {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 30px;
 }
 
 .btn-primary:hover {
@@ -250,16 +259,14 @@ header.nav {
 }
 
 .nav-links a {
-  font-size: 14.5px;
+  font-size: 18px;
   color: var(--ink-soft);
   
   position: relative;
-  padding-bottom: 12px;
-
-
+  padding-bottom: 1px;
 }
 
-.nav-links a::after {
+.nav-links > a:not(.btn)::after {
   content: '';
   position: absolute;
   left: 0;
@@ -274,13 +281,13 @@ header.nav {
   color: var(--bordeaux-deep);
 }
 
-.nav-links a:hover::after {
+.nav-links > a:not(.btn):hover::after {
   width: 100%;
 }
 
 .icone-whatsapp {
-  width: 25px;
-  height: 25px;
+  width: 20px;
+  height: 20px;
   object-fit: contain;
 }
 
@@ -296,7 +303,7 @@ header.nav {
   display: none;
 }
 .nav-cta .btn {
-  padding: 12px 24px;
+  padding: 12px 14px;
   font-size: 13.5px;
 }
 
